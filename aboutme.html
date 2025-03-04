@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    <!-- CSS STARTS HERE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            font-family: sono;
+            font-size:20px;
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-right:100px;
+            background-color: rgba(253, 240, 203, 0.758);
+            color:rgba(20, 67, 6, 0.856);
+            display:flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container{
+            flex-grow:1;
+        }
+
+        h1{ font-family: "Libre Baskerville", serif;
+            font-weight:700;
+            font-size:2rem;
+
+        }
+        
+        p{
+            font-size: 1rem;
+        }
+
+        .container img{
+            margin-top:20px;
+            max-width:500px;
+        }
+
+        p a{
+            color:rgba(17, 37, 10, 0.856);
+            text-decoration: underline;
+        }
+
+        .toolbar{
+            display:flex;
+            justify-content: space-between;
+            gap: 30px;
+            font-size:1rem;
+            align-items:center;
+        }
+
+        .links{
+            border: 1px solid   ;
+            padding: 2px;
+            padding-right:5px;
+            padding-left: 5px;
+        }
+
+        .first{
+            border: none;
+        }
+
+        .rightlinks{
+            display:flex;
+            gap: 30px;
+        }
+
+        a {
+        color: rgba(20, 67, 6, 0.856);
+        text-decoration: none;  
+        }
+
+        a:hover {
+        color:  rgba(120, 136, 115, 0.856); 
+        font-style: italic;
+        text-decoration:none; 
+        cursor:pointer;  
+        }
+
+        footer{
+            margin-top:auto;
+            margin-bottom:30px;
+            display:flex;
+            font-size:1rem;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        @media (max-width:800px) and (min-width: 601px){
+            .container img{
+                max-width: 300px;
+                margin-top:20px;
+            }
+        }
+
+
+        @media (max-width:600px){
+            body{
+                margin-left: 50px;
+                margin-right:50px;
+                text-align:center;
+            }
+            .container img{
+                margin-top:20px;
+                max-width:300px;
+                align-items:center;
+            }
+
+            .toolbar {
+            flex-direction: column;  /* Stack the elements vertically */
+            justify-content: center; /* Center align links in a column */
+            gap: 15px; /* Reduce gap between elements for better spacing */
+            align-items: center; /* Center the items */
+            }
+
+            .rightlinks {
+            display: flex;
+            flex-direction: row;  /* Arrange all links in a row */
+            justify-content: space-between; /* Spread links evenly */
+            gap: 10px; /* Reduce gap between links for compactness */
+            }
+        }
+
+
+    </style>
+
+    <!-- CSS ENDS HERE -->
+
+</head>
+<body>
+    <div class = "toolbar"> 
+        <div><a href="./index.html"> <img src = "./home (1).svg" alt="My Happy SVG"/></a> </div>
+    
+        <div class="rightlinks"> 
+        <div class = "links"><a href="./aboutme.html">about</a></div>
+        <div class = "links"><a href="./resume.html">cv</a></div>
+        <div class = "links last"><a href="./contactme.html">contact</a></div>
+        </div>
+    </div>
+
+    <div class = "container">
+    <h1>Hi, I'm Tiffany.</h1>
+    <p>I'm an aspiring web developer based in London. For the past few months I've been learning to code on my own, using free web resources like Udemy, freeCodeCamp and DataCamp.
+    </p>
+    <p>Previously, I was a financial reporter at Bloomberg News, where I reported on the financial markets, writing stories about <a href="https://www.bloomberg.com/news/articles/2024-04-11/google-apple-microsoft-get-ai-antitrust-scrutiny-from-uk-cma">tech regulation</a>, <a href="https://www.bloomberg.com/news/articles/2024-08-05/forgery-spying-allegations-fly-in-family-dispute-over-billions">fraud</a>, <a href="https://www.bloomberg.com/news/features/2024-10-24/cambridge-a-uk-tech-boomtown-resists-silicon-valley-comparison">politics</a>, stocks, bonds, and all things business. </p>
+    <p>I graduated from the University of Cambridge with a BA and MSci in Natural Sciences in the summer of 2023. My academic foundations are in biology and chemistry, but in my fourth year I specialised in the history of science, where I wrote about the place of technology in society. </p>
+    <p>I grew up in Hong Kong.</p>
+    <p>In my own time, I love reading, seeing films, and listening to music. I also have a soft spot for birds. </p>
+    <img src="./tumblr_43ac524d32eaa31924dcd4af5f859451_18574f4e_1280.jpg"/> 
+</div>
+    
+
+    <footer>
+        <div class="footer links">
+            <a href="https://www.linkedin.com/in/tiffany-tsoi-6813721b3/">linkedin</a> </div>
+            <div class="footer links"><a href="https://www.bloomberg.com/authors/AWY9RMEHEVw/tiffany-tsoi">journalism</a>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

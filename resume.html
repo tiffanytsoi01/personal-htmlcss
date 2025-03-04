@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <!-- CSS STARTS HERE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            font-family: sono;
+            font-size:20px;
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-right:100px;
+            background-color: rgba(253, 240, 203, 0.758);
+            color:rgba(20, 67, 6, 0.856);
+            display:flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container{
+            flex-grow:1;
+        }
+
+        h1{
+            font-family: "Libre Baskerville", serif;
+            font-weight:700;
+            font-size:2rem;
+        }
+
+        h2{
+            font-family: "Libre Baskerville", serif;
+            font-weight:450;
+            font-size:0.9rem;
+            color:rgba(50, 15, 1, 0.856);
+        }
+
+        ul{
+            font-size: 0.85rem;
+            list-style: circle;
+        }
+        
+        p{
+            font-size: 0.75rem;
+        }
+
+        img{
+            max-width:500px;
+        }
+
+        a{
+            color: inherit;
+        }
+
+        .toolbar{
+            display:flex;
+            justify-content: space-between;
+            gap: 30px;
+            font-size:1rem;
+            align-items:center;
+        }
+
+        .links{
+            border: 1px solid   ;
+            padding: 2px;
+            padding-right:5px;
+            padding-left: 5px;
+        }
+
+        .first{
+            border: none;
+        }
+
+        .rightlinks{
+            display:flex;
+            gap: 30px;
+        }
+
+        a {
+        color: rgba(20, 67, 6, 0.856);
+        text-decoration: none;  
+        }
+
+        a:hover {
+        color:  rgba(120, 136, 115, 0.856); 
+        font-style: italic;
+        text-decoration:none; 
+        cursor:pointer;  
+        }
+
+        footer{
+            margin-top:auto;
+            margin-bottom:30px;
+            display:flex;
+            font-size:1rem;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        @media (max-width:600px){
+            body{
+                margin-left: 50px;
+                margin-right:50px; 
+                text-align:center;
+            }
+
+            h1{
+                font-size:1rem;
+            }
+
+            .toolbar {
+        flex-direction: column;  /* Stack the elements vertically */
+        justify-content: center; /* Center align links in a column */
+        gap: 15px; /* Reduce gap between elements for better spacing */
+        align-items: center; /* Center the items */
+        }
+
+        .rightlinks {
+         display: flex;
+        flex-direction: row;  /* Arrange all links in a row */
+        justify-content: space-between; /* Spread links evenly */
+        gap: 10px; /* Reduce gap between links for compactness */
+        }
+
+        .container{
+            margin-top:10px;
+        }
+
+        ul{
+            text-align: left;
+        }
+            
+        
+        }
+
+        
+
+    </style>
+
+    <!-- CSS ENDS HERE -->
+
+</head>
+<body>
+
+    <div class = "toolbar"> 
+        <div><a href="./index.html"> <img src = "./home (1).svg" alt="My Happy SVG"/></a> </div>
+        <div class="rightlinks"> 
+        <div class = "links"><a href="./aboutme.html">about</a></div>
+        <div class = "links"><a href="./resume.html">cv</a></div>
+        <div class = "links last"><a href="./contactme.html">contact</a></div>
+        </div>
+    </div>
+
+    <div class = "container">
+    <h1>Education</h1>
+    <h2>University of Cambridge, Natural Sciences MSci: 1st Class; 2022-2023</h2>
+    <h2>University of Cambridge, Natural Sciences BA Hons: 1st Class; 2019-2022 </h2>
+    <h2>South Island School (Hong Kong); 2012-2019</h2>
+        <ul><li>International Baccalaureate Diploma (44/45); 2019</li></ul>
+
+    <h1>Work Experience</h1>
+   <h2>Reporter, Bloomberg News; December 2023-Present</h2>
+   <ul>
+    <li>Pitched and reported on business news by gathering and interpreting financial data, and
+        explaining complex business concepts</li>
+    <li>Conducted interviews with stakeholders of different stories in order to gather opinions and
+        insights, built and maintained relationships with sources</li>
+    <li>Worked on longer-term projects in teams of reporters and editors to conduct
+        deeper investigative analysis</li>
+    <li>Learned to use a diverse range of data analysis technologies and tools on the Bloomberg
+        Terminal, as well as coding languages R and Python</li>
+   </ul>
+   <h2>Summer Technology Intern, Teya; July-September 2022 </h2>
+   <ul>
+    <li>Identified and analysed market gaps and business development opportunities in the payments industry, wrote and presented my findings in a report</li>
+    <li>Carried out end-user testing for a new Point of Sale system that was to be launched to the market, presented findings back to the engineering team</li>
+    <li>Worked with the public affairs team to help craft and deliver stakeholder responses to the Financial Conduct Authority for a market review of payment systems in the UK</li>
+   </ul>
+   <h2>Data Research Assistant, under Dr. Johannes Lenhard at Cambridge University; August 2021-October 2021</h2>
+   <ul><li>Researched and wrote a report on the different use cases for big data in Big Tech, and their ethical dimensions</li></ul>
+   <h1>Roles of Responsibility</h1>
+   <h2>Senior Editor & Reporter, Cambridge University Varsity Newspaper; May 2020-present </h2>
+   <ul><li>Set out editorial strategies by analysing audience engagement data, and sent out weekly
+    commissions for contributors in alignment with those strategies</li></ul>
+    <h2>Founder and President, Trinity Hall Women in STEM Society; July 2020-July 2022</h2>
+    <ul><li>Founded and ran a Women in STEM society at my Cambridge college with the mission of building
+        community and widening access to career support for women studying STEM subjects</li></ul>
+    <h1>Skills</h1>
+    <h2>Languages</h2>
+    <ul><li>English (native written and spoken), Cantonese (native spoken, fluent written), Spanish (intermediate spoken and written)</li></ul>
+    <h2>Coding/Technology</h2>
+    <ul><li>HTML, CSS, JavaScript, Python, R, Adobe InDesign, Adobe Premiere Pro, MS Office</li></ul>
+    </div>  
+
+    <footer>
+        <div class="footer links">
+            <a href="https://www.linkedin.com/in/tiffany-tsoi-6813721b3/">linkedin</a> </div>
+            <div class="footer links"><a href="https://www.bloomberg.com/authors/AWY9RMEHEVw/tiffany-tsoi">journalism</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
